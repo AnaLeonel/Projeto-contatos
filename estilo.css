@@ -61,3 +61,18 @@ body {
     margin: 5px 0 0;
     color: #5a8c79;
 }
+
+.list-item:hover{
+    background-color: #caecdf;
+}
+
+.list-item__actions{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+}
+
+.list-item:hover .list-item__actions{
+    opacity: 0.4;
+}
